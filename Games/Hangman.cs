@@ -14,7 +14,7 @@ namespace Games
             Console.BackgroundColor = ConsoleColor.Black;
             Console.SetWindowSize(60, 20);
 
-            string[] wordsHangman = System.IO.File.ReadAllLines(@"C:\Users\cda06chap\Documents\motsPendu.txt");
+            string[] wordsHangman = System.IO.File.ReadAllLines(@"./motsPendu.txt");
 
 
             //string word = "ABC";
