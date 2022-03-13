@@ -11,7 +11,7 @@ namespace Games
         /// <summary>
         /// Jeu du Tic-Tac-Toe
         /// </summary>
-        public static void TicTacToeMain()
+        public static void Start()
         {
 
             do
