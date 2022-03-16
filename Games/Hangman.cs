@@ -16,9 +16,6 @@ namespace Games
 
             string[] wordsHangman = System.IO.File.ReadAllLines(@"./motsPendu.txt");
 
-
-            //string word = "ABC";
-
             char[] letters = new[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
 
             do
@@ -181,6 +178,7 @@ namespace Games
 
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write(("").PadRight(15, ' '));
+
             for (int i = 0; i < word.Length; i++)
             {
                 if (lettersFound[i])
